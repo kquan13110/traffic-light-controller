@@ -25,7 +25,7 @@ begin
     if (~rst_n) 
         giay <= 8'b00000000;
     else
-		if (~mode == 3'b000)
+		if (mode == 3'b000)
 		begin
 			if (~btn_up)
 				if (giay == 8'b0101_1001) giay <= 8'b0000_0000;

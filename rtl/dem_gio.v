@@ -26,7 +26,7 @@ begin
 	if (~rst_n) gio <= 8'b00000000;
 	else
 	
-		if (~mode == 3'b010)
+		if (mode == 3'b010)
 		begin
 			if (~btn_up)
 				if (gio == 8'b0010_0011) gio <= 8'b0000_0000;

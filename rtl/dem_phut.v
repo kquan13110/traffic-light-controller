@@ -25,7 +25,7 @@ always @(posedge clk_1Hz or negedge rst_n)
 begin
 	if (~rst_n) phut <= 8'b00000000;
 	else
-		if (~mode == 3'b001)
+		if (mode == 3'b001)
 		begin
 			if (~btn_up)
 				if (phut == 8'b0101_1001) phut <= 8'b0000_0000;
