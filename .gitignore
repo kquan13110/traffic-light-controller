@@ -1,0 +1,73 @@
+# Archives and packaged submissions
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+
+# Personal/exported documents
+*.pdf
+
+# Simulation outputs and waveforms
+*.vcd
+*.fst
+*.fsdb
+*.wlf
+*.ghw
+*.vpd
+*.saif
+transcript
+*.log
+*.jou
+*.rpt
+
+# Icarus Verilog
+*.vvp
+a.out
+sim_build/
+
+# Verilator
+obj_dir/
+*.mk
+*.d
+*.o
+*.a
+*.so
+*.verilator/
+
+# Questa/ModelSim
+work/
+wlft*
+modelsim.ini
+*.mpf
+*.mti
+*.qdb
+*.qpg
+*.qtl
+*_lib/
+
+# Cadence/Xcelium/Incisive
+INCA_libs/
+xcelium.d/
+irun.*
+xrun.*
+waves.shm/
+*.dsn
+*.trn
+
+# Generic build/cache/temp files
+build/
+run/
+runs/
+out/
+tmp/
+temp/
+.cache/
+.pytest_cache/
+__pycache__/
+*.swp
+*.swo
+*~
+
+# Alternate Git metadata used in restricted workspaces
+.gitrepo/
